@@ -1,0 +1,162 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+body {
+    background-color: rgb(87, 48, 48);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(161, 125, 81);
+}
+nav {
+    word-spacing: 20px;
+}
+.grn-color {
+    color: rgb(161, 125, 81);
+}
+#conference-link{
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 80%
+}
+#one{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+#one-left{
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
+    justify-self: left;
+    max-width: min-content;
+    margin-right: 10%;
+    border-top: 4px solid rgb(161, 125, 81);
+    padding-top: 3%;
+}
+#one-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    justify-self: right;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+#date {
+    font-size: 18px
+}
+#two{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#two-header {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+#two-para {
+    font-size: 25px;
+    line-height: 180%;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 3%;
+}
+#register-btn {
+    background-color: rgb(161, 125, 81);
+    color: white;
+    border: 1px solid white;
+    padding: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+}
+#register-btn:hover{
+    background-color: white;
+    color: rgb(48, 63, 87);
+}
+#three {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+#three a{
+    color: black;
+    font-size: 25px;
+}
+#three img{
+    max-width: 100%;
+    border-radius: 5px;
+    padding-bottom: 5%;
+}
+#three figcaption{
+    padding-bottom: 10%;
+}
+.awesome {
+    padding-top: 10%;
+}
+#four{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+#copyright{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
+    justify-self: left;
+    padding-right: 20%;
+    min-width: max-content;
+}
+#bottom-nav{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    justify-self: right;
+    padding-left: 20%;
+    min-width: max-content;
+    padding-top: 2.01%;
+    font-size: 14px;
+    word-spacing: 10px;
+}

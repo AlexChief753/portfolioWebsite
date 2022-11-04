@@ -1,0 +1,75 @@
+#logoDiv {
+    text-align: center;
+}
+#linksDiv {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3%;
+}
+.links {
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+}
+.links:hover {
+    color: rgb(0, 196, 150);
+}
+
+
+#footer {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+#footerParaDiv {
+    text-align: left;
+    justify-content: left;
+    display: inline-block;
+    padding-left: 8%;
+}
+#footerPara {
+    font-size: 100%;
+}
+#footerIconDiv {
+    padding-right: 6%;
+    display: inline;
+    float: right;
+    text-align: right;
+    width: 40%;
+    margin-top: 0%;
+}
+.iconForms {
+    display: inline;
+    padding: 2%;
+}
+.icons{
+    background-size: 100%;
+    padding: 4%;
+    border: 0;
+    justify-content: right;
+}
+#twitter{
+    background-image: url("../images/images/icons/icon-twitter.jpg");
+}
+#twitter:hover{
+    background-image: url("../images/images/icons/icon-twitter-hover.jpg");
+}
+#facebook{
+    background-image: url("../images/images/icons/icon-facebook.jpg");
+}
+#facebook:hover{
+    background-image: url("../images/images/icons/icon-facebook-hover.jpg");
+}
+#googleplus{
+    background-image: url("../images/images/icons/icon-googleplus.jpg");
+}
+#googleplus:hover{
+    background-image: url("../images/images/icons/icon-googleplus-hover.jpg");
+}
+#pinterest{
+    background-image: url("../images/images/icons/icon-pinterest.jpg");
+}
+#pinterest:hover{
+    background-image: url("../images/images/icons/icon-pinterest-hover.jpg");
+}

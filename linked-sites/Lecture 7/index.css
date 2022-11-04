@@ -1,0 +1,48 @@
+body{
+    border: 100px solid;
+    border-image: url("https://blenderartists.org/uploads/default/original/4X/3/5/b/35bc31bcc758d3111cfd6334efdaf090d4fa1cd4.jpeg") 47% round;
+}
+.underB{
+    border-bottom: 3px; 
+    border-bottom-color: black; 
+    border-bottom-style: solid; 
+    font-weight: bold;
+}
+table,tr,td{
+    border-collapse: collapse; 
+    border-style: solid; 
+    border-color: black; 
+    border-radius: 2px;
+}
+.top{
+    padding: 14px; 
+    font-weight: bold;
+}
+td, li {
+    padding: 7px;
+}
+.final {
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+table, p, h2, ol, ul{
+    background-color: white;
+}
+.header {
+    padding: 60px; 
+    text-align: center; 
+    background-color: blueviolet;
+}
+.normal {
+    background-color: initial;
+}
+.yo {
+    border: solid; 
+    border-color: blueviolet;
+    border-width: 4px;
+}
+.saul{
+    float: right;
+}

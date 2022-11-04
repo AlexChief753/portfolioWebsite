@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div id="wrapper-nav-section">
+        <section id="nav-section-top">
+            <div id="myname-div">
+                <p id="myname">Alexander Lowe</p>
+            </div>
+            <nav id="nav-nav">
+                <ul id="nav-ul">
+                    <a class="nav-a" href="#hero-section">About Me</a>
+                    <a class="nav-a" href="#gallery-section">Portfolio</a>
+                    <a class="nav-a" href="#resume-section">Résumé</a>
+                    <a class="nav-a" href="#contact-section">Contact Me</a>
+                </ul>
+            </nav>
+        </section>
+        <!-- Impostor division that basically functions as a margin -->
+        <section id="nav-section-bottom">
+                <p id="myname"></p>
+        </section>
+        <!-- End of impostor -->
+    </div>
+
+    <section id="hero-section">
+        <div id="wrapper-bravo-img">
+            <img id="bravo-img" src="Images/Johnny_Bravo.webp" alt="literally me">
+        </div>
+        <div id="wrapper-bravo-text">
+            <p id="bravo-header"><strong id="hello">Hello,</strong> my name is <br> Alexander Lowe</p>
+            <p id="bravo-para">I am a professional software developer <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad distinctio hic quibusdam, itaque, quos nobis cum deleniti dolorem aliquid vel vero rerum minus aliquam voluptates aut ullam repellendus quo eveniet!</p>
+        </div>
+    </section>
+
+    <section id="gallery-section">
+        <h1 id="gallery-header">Website Portfolio</h1>
+        <section id="gallery">
+            <div class="gallery-row" id="gallery-row-1">
+                <div class="img-container">
+                    <a href="linked-sites/Lecture 2/boxes.html" target="_blank">
+                        <img id="image-1" class="image" src="Images/Screenshot_20221021_102107.png" alt="1">
+                    </a>
+                </div>
+                <div class="img-container">
+                    <a href="linked-sites/Lecture 4/style.html" target="_blank">
+                        <img id="image-2" class="image" src="Images/Screenshot_20221021_102737.png" alt="2">
+                    </a>
+                </div>
+                <div class="img-container">
+                    <a href="linked-sites/Weekly Assignment 1/files/index.html" target="_blank">
+                        <img id="image-3" class="image" src="Images/Screenshot_20221021_102444.png" alt="3">
+                    </a>
+                </div>
+                <div class="img-container">
+                    <a href="linked-sites/Assessment 2/assessment.html" target="_blank">
+                        <img id="image-4" class="image" src="Images/logo-white.png" alt="4">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <section id="resume-section">
+        <h1 id="resume-header">Résumé</h1>
+        <div id="resume-wrapper">
+            <a id="resume-anchor" href="linked-sites/Lecture 7/index.html" target="_blank">
+                <button id="resume-button">Click Here to View</button>
+            </a>
+        </div>
+    </section>
+
+
+    <section id="contact-section">
+        <h1 id="contact-header">Contact Me</h1>
+        <article id="contact-article">
+            <div class="input-row">
+                <p class="input-para">Name</p>
+                <div class="input-div">
+                    <input class="input-input" placeholder="Name" type="text" name="" id="">
+                </div>
+            </div>
+            <div class="input-row">
+                <p class="input-para">Email</p>
+                <div class="input-div">
+                    <input class="input-input" placeholder="Email" type="text" name="" id="">
+                </div>
+            </div>
+            <div class="input-row">
+                <p class="input-para">Send me a message</p>
+                <div class="input-div">
+                    <textarea itemid="bigtext" class="input-input" placeholder="Message" name="" id="" cols="30" rows="3"></textarea>
+                </div>                
+            </div>
+            <div id="input-button-div">
+                <form action="#">
+                    <button id="input-button">Send it!</button>
+                </form>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

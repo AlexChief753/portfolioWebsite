@@ -1,0 +1,305 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+html{
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 10rem;
+}
+body{
+    background-color: rgb(69, 0, 0);
+}
+h1{
+    text-align: center;
+    font-size: 500%;
+    font-weight: 200;
+}
+section {
+    border-radius: 50px;
+}
+#wrapper-nav-section {
+    display: block;
+    height: fit-content;
+}
+#nav-section-top {
+    width: 100%;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    background-color: #5b5b5b;
+    position: fixed;
+    transition: top 0.3s;
+    border-radius: 0;
+}
+#nav-section-bottom {
+    width: 100%;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    background-color: #323232;
+    transition: top 0.3s;
+}
+    #myname-div{
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+    }
+        #myname{
+            font-size: 300%;
+            font-weight: 400;
+            width: fit-content;
+            padding: 1%;
+            padding-bottom: 1%;
+            word-spacing: 0.3rem;
+            background-color: rgb(69, 0, 0);
+            border-radius: 25px;
+            border-bottom: 0;
+            text-shadow: 0px 0px 4px rgb(0, 0, 0), 0px 0px 13px rgb(176, 0, 0), 
+            0px 0px 8px rgb(176, 0, 0) , 0px 0px 9px rgb(176, 0, 0) , 
+            0px 0px 10px rgb(176, 0, 0) , 0px 0px 11px rgb(176, 0, 0) ;
+        }
+        #myname:after {
+            content: "";
+            display: block;
+            border-bottom: 5px solid rgb(0, 0, 0);
+            margin: 0 auto;
+            margin-top: 3%;
+            width: 100%;
+        }
+    #nav-nav{
+        display: inline-block;
+        width: 50%;
+        font-size: 110%;
+        text-align: right;
+        padding-right: 3%;
+        font-size: 130%;
+    }
+        #nav-ul{
+            display: inline;
+            width: max-content;
+            overflow: hidden;
+        }
+            .nav-a{
+                list-style: none;
+                margin-left: 10%;
+                text-decoration: none;
+                font-weight: 300;
+                border-bottom: 2px solid transparent;
+                transition: color 0.2s, border-color 0.2s;
+            }
+            .nav-a:hover{
+                color: rgb(255, 0, 0);
+                border-color: red;
+                transition: color 0.2s, border-color 0.2s;
+            }
+
+
+#hero-section{
+    display: flex;
+    padding: 5%;
+    margin: 7%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    background-color: #323232;
+}
+#wrapper-bravo-img{
+    display: inline;
+    width: 40%;
+    margin-left: 8%;
+    text-align: left;
+}
+#bravo-img{
+    border-radius: 5px;
+    width: 100%;
+}
+#wrapper-bravo-text{
+    display: inline;
+    width: 75%;
+    padding-right: 10%;
+    text-align: right;
+}
+#bravo-header {
+    font-size: 300%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+#hello {
+    font-weight: 400;
+}
+#bravo-para {
+    font-size: 110%;
+    padding-left: 15%;
+    text-align: right;
+    line-height: 150%;
+}
+
+
+
+
+#gallery-section{
+    background-color: #323232;
+    padding: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 80%;
+    margin: 0 auto;
+}
+#gallery-header {
+    font-size: 500%;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-row{
+    padding-bottom: 5%;
+}
+
+.img-container{
+    display: block;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 75px;
+}
+.image{
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 300px;
+    transform: scale(1.1);
+    opacity: 0.7;
+    vertical-align: bottom;
+}
+.image:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+#resume-section {
+    padding: 3%;
+    padding-bottom: 9%;
+    background-color: #323232;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#resume-header {
+    text-align: center;
+    font-size: 500%;
+    font-weight: 200;
+}
+#resume-wrapper {
+    text-align: center;
+    margin-top: 5%;
+}
+#resume-button {
+    background-color: rgb(108, 0, 0);
+    transition: background-color 0.2s;
+    color: white;
+    font-size: 200%;
+    padding: 3%;
+    border-radius: 75px;
+}
+#resume-button:hover {
+    background-color: rgb(69, 0, 0) ;
+    transition: background-color 0.2s;
+}
+
+
+#contact-section {
+    background-color: #323232;
+    width: 80%;
+    padding: 3%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#contact-header {
+    text-align: center;
+    font-size: 500%;
+    font-weight: 200;
+}
+#contact-article {
+    padding: 5%;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 200%;
+}
+.input-row {
+    display: block;
+    text-align: center;
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+.input-para {
+    clear: both;
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
+    justify-self: left;
+    text-justify: left;
+    float: left;
+}
+.input-div{
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    justify-self: right;
+}
+.input-input {
+    resize: none;
+    padding: 1%;
+    color: black;
+    font-weight: 400;
+    font-size: 50%;
+}
+#input-button-div{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+#input-button {
+    background-color: rgb(108, 0, 0);
+    color: white;
+    border: 1px solid rgb(108, 0, 0);;
+    border-radius: 75px;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 100%;
+    font-weight: 300;
+    margin: 1%;
+    transition: background-color 0.3s;
+    clear: both;
+}
+#input-button:hover {
+    transition: background-color 0.3s;
+    background-color: rgb(69, 0, 0);
+    border-color: rgb(69, 0, 0));
+}
